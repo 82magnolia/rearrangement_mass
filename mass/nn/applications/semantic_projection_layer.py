@@ -2,7 +2,7 @@ import torch
 import torch.nn.functional as functional
 import cv2
 import numpy as np
-from slam_rcnn.nn.base_projection_layer import BaseProjectionLayer
+from mass.nn.base_projection_layer import BaseProjectionLayer
 from typing import Dict, Any
 
 

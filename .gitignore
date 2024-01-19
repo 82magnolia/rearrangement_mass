@@ -1,0 +1,7 @@
+mass/__pycache__
+mass/nn/__pycache__
+mass/nn/applications/__pycache__
+mass/thor/__pycache__
+mass/utils/__pycache__
+mass/thor/model_final.pth
+test*

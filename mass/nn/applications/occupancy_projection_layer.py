@@ -1,6 +1,6 @@
 import torch
-from slam_rcnn.utils.visualization import visualize_path
-from slam_rcnn.nn.base_projection_layer import BaseProjectionLayer
+from mass.utils.visualization import visualize_path
+from mass.nn.base_projection_layer import BaseProjectionLayer
 from typing import Dict, Any
 
 

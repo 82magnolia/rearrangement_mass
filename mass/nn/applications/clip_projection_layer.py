@@ -2,7 +2,7 @@ import numpy as np
 import torch
 import clip
 from PIL import Image
-from slam_rcnn.nn.base_projection_layer import BaseProjectionLayer
+from mass.nn.base_projection_layer import BaseProjectionLayer
 from typing import Dict, Any, Callable
 
 

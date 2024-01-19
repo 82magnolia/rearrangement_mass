@@ -26,11 +26,11 @@ class NumpyJSONEncoder(json.JSONEncoder):
     """
 
     def default(self, obj):
-        if isinstance(obj, np.bool):
+        if isinstance(obj, bool):
             return bool(obj)
-        elif isinstance(obj, np.integer):
+        elif isinstance(obj, np.int64):
             return int(obj)
-        elif isinstance(obj, np.floating):
+        elif isinstance(obj, np.float64):
             return float(obj)
         elif isinstance(obj, np.ndarray):
             return obj.tolist()

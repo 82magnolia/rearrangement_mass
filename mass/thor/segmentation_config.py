@@ -18,7 +18,6 @@ from allenact_plugins.ithor_plugin.ithor_sensors \
 from rearrange.sensors import RGBRearrangeSensor
 from rearrange.sensors import UnshuffledRGBRearrangeSensor
 from rearrange.sensors import DepthRearrangeSensor
-from rearrange.tensorf_sensor import NeRFDepthSensor
 
 from rearrange.tasks import RearrangeTaskSampler
 from rearrange.tasks import UnshuffleTask

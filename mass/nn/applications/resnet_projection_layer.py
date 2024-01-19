@@ -3,7 +3,7 @@ import torch
 from torchvision.models import resnet50
 import torchvision.transforms as transforms
 from PIL import Image
-from slam_rcnn.nn.base_projection_layer import BaseProjectionLayer
+from mass.nn.base_projection_layer import BaseProjectionLayer
 from typing import Dict, Any, Callable
 
 
